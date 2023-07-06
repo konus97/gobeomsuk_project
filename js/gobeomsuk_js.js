@@ -119,7 +119,7 @@ $(function(){
       /*마우스오버 텍스트*/
 
       $(window).resize(function(){ 
-        if (window.innerWidth >767) {   
+        if (window.innerWidth >1219) {   
           $("#container .con2 .right .r_a li").on("mouseenter",function(){
             $(this).children(".textbox").stop().animate({bottom:"0px"})
           })
@@ -158,7 +158,7 @@ $(function(){
     })
  
     /*모바일슬라이드 메뉴바*/
-    if($(window).width() < 768) {
+    if($(window).width(768) < 768) {
       $('.menu1').click(function(){
         $('.menu2').slideUp();
         if ($(this).children('.menu2').is(':hidden')){
