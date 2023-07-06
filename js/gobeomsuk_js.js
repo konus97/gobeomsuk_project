@@ -158,7 +158,7 @@ $(function(){
     })
  
     /*모바일슬라이드 메뉴바*/
-    if($(window).width(768) < 768) {
+    if($(window).width() <= 767) {
       $('.menu1').click(function(){
         $('.menu2').slideUp();
         if ($(this).children('.menu2').is(':hidden')){
