@@ -198,12 +198,12 @@ body{color:#333;font-family: 'Caveat', cursive;
      
      /*메뉴네비바*/
      .wrap{width:100%;height:100%;position:fixed;background:rgba(0,0,0,0.93);z-index: 998;display:none;}
-     .nav{position:absolute;top:50%; left:50%; transform:translate(-50%,-50%);}
+     .nav{width:90%;position:absolute;top:50%; left:52%; transform:translate(-50%,-50%);}
      .navi{display:flex; justify-content:space-between; }
      .navi li{width:20vw;text-align:center;}
-     .navi li h2{margin-bottom:2vw;font-family: 'EB Garamond', serif; font-size:2.2vw;color:#fff;
+     .navi li h2{margin-bottom:2vw;font-family: 'EB Garamond', serif; font-size:2.7vw;color:#fff;
        }
-     .navi li p{margin:0.5vw 0px;cursor: pointer;font-size:1.4vw;color:rgba(255,255,255,0.3);}
+     .navi li p{margin:0.5vw 0px;cursor: pointer;font-size:1.9vw;color:rgba(255,255,255,0.3);}
      .wrap span{font-size:3.5vw;color:#fff;position:absolute; right:3%; top:5%;cursor: pointer;}
  
      /*visual*/
